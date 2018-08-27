@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--For some fun animations-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--My css styling-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Jquery -->
+</head>
+
+<body background="assets/images/background.jpeg" class="img-responsive">
+    <div class="container-fluid card w3-animate-zoom container">
+        <h1 class="text-left">Gifs Galore</h1>
+
+        <!-- Buttons placed here  -->
+        <div id="buttons-view"></div>
+
+        <form id="movie-form" class="text-center">
+            <input type="text" id="movie-input" placeholder="Enter Your Fav Gif Here">
+            <input id="add-gif" type="submit" value="Add" class="btn"> <!-- Button triggers new gif to be added -->
+        </form>
+        <div id="gif-info-text"></div>
+        <!-- Movies will Get Dumped Here -->
+        <div id="gifs-appear-here" class="row"></div>
+
+    </div>
+    <footer class="sticky-bottom w3-animate-zoom">
+        <a href="https://luka2457.github.io/Bootstrap-Portfolio/portfolio.html">Luke's Portfolio</a>
+    </footer>
+    <script type="text/javascript" src="assets/javascript/javascript.js"> </script>
+</body>
+
+</html>
